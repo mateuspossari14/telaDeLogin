@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício: Tela de Login | TailwindCSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="p-4 flex flex-col justify-center items-center bg-gray-900">
+    <form class="mt-5 w-full">
+        <div class="flex flex-col items-center px-[40px] text-gray-300">
+            <legend class="text-white text-3xl font-bold text-center mb-5">Sistema de Login</legend>
+            <label for="email" class="flex flex-col">
+                <p class="mb-2">Endereço de e-mail</p>
+                <input type="email" name="email" class="w-[300px] py-1 text-sm bg-gray-800 border-gray-700 outline-yellow-500 border border-2 rounded-sm">
+            </label>
+            <label for="password" class="flex flex-col">
+                <p class="mt-4 mb-2">Senha</p>
+                <input type="password" name="password" class="w-[300px] py-1 text-sm bg-gray-800 border-gray-700 outline-yellow-500 border border-2 rounded-sm">
+                <button type="submit" class="p-2 my-6 bg-yellow-500 border-none text-white font-medium rounded-sm">Entrar</button>
+            </label>
+        </div>
+    </form>
+    <p class="text-gray-400">
+        Não é membro? 
+        <a href="#" target="_blank" class="text-yellow-400 font-bold">
+            Faça seu cadastro agora.
+        </a>
+    </p>
+</body>
+
+</html>
